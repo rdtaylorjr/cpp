@@ -1,0 +1,929 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		70DC706F82644B6D96543725 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 133252861FC84244A6FEE349 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				9BB2786984D466DCAF6604B9 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		997AEC5BCEBB4193A221961A /* test_hello-world */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B4809BFD88D344418280AB1D /* Build configuration list for PBXAggregateTarget "test_hello-world" */;
+			buildPhases = (
+				7A46CE862F93F636828572DF /* Generate CMakeFiles/test_hello-world */,
+			);
+			dependencies = (
+				E69ABB7E897E4E8A90CC8409 /* PBXTargetDependency */,
+				ED23EDD52C82423B94AAFA4D /* PBXTargetDependency */,
+			);
+			name = "test_hello-world";
+			productName = "test_hello-world";
+		};
+		E1751656B6094AFDB80804CC /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B5C6B6AC37244E54BA9D12A6 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				8D1783D751649CE40BE3C4C8 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				4C3E50BEE2AB4A42BF77C4C9 /* PBXTargetDependency */,
+				9815C3E650114CAEB78050EE /* PBXTargetDependency */,
+				2BDD00C9D4DF4F21AB0F5C35 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		17C3C22DC504449C9AC77D1A /* /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/test/tests-main.cpp */ = {isa = PBXBuildFile; fileRef = C84B527CE8D745B8B1D65E37 /* /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/test/tests-main.cpp */; };
+		233A502EB5FD4E2B851CFACC /* /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/hello_world.cpp */ = {isa = PBXBuildFile; fileRef = 2AF8A4892B7E4A7282416DC7 /* /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/hello_world.cpp */; };
+		9B89C354FC0D4916AF600666 /* /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = AC534654F67F40189848E9AA /* /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/CMakeLists.txt */; };
+		CCEE9A44F3A54B6D946E5149 /* /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/hello_world.h */ = {isa = PBXBuildFile; fileRef = 5D30C182364C46EA821CA634 /* /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/hello_world.h */; };
+		EF453BCE02CD4C7E921504C0 /* /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/hello_world_test.cpp */ = {isa = PBXBuildFile; fileRef = 56763AE714994158B9AE6565 /* /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/hello_world_test.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		9CB340281C46445D9A29128D /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		9F48FFBF62D94A5DA89693A6 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		DC557DE1FD9C4F39A2EC76F8 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		E472A113C47B4C32B449128A /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		13650BE1562843AD93F60984 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86AAB4BAA69D4855B3BD0B68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70DC706F82644B6D96543725;
+			remoteInfo = ZERO_CHECK;
+		};
+		44E9953C47AF43FC9B0F1481 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86AAB4BAA69D4855B3BD0B68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6572F03C68934333888AA018;
+			remoteInfo = "hello-world";
+		};
+		47489026DC9F408BB8149C12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86AAB4BAA69D4855B3BD0B68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6572F03C68934333888AA018;
+			remoteInfo = "hello-world";
+		};
+		4D277EC0659040B7AF1F21AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86AAB4BAA69D4855B3BD0B68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70DC706F82644B6D96543725;
+			remoteInfo = ZERO_CHECK;
+		};
+		933A11F01E8145179EA5F29C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86AAB4BAA69D4855B3BD0B68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70DC706F82644B6D96543725;
+			remoteInfo = ZERO_CHECK;
+		};
+		B157F4D7C9844A26A9D7A6A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86AAB4BAA69D4855B3BD0B68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 997AEC5BCEBB4193A221961A;
+			remoteInfo = "test_hello-world";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13E3B99BE1944CE691EBCF0F /* /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2AF8A4892B7E4A7282416DC7 /* /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/hello_world.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hello_world.cpp; path = hello_world.cpp; sourceTree = SOURCE_ROOT; };
+		56763AE714994158B9AE6565 /* /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/hello_world_test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hello_world_test.cpp; path = hello_world_test.cpp; sourceTree = SOURCE_ROOT; };
+		5D30C182364C46EA821CA634 /* /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/hello_world.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hello_world.h; path = hello_world.h; sourceTree = SOURCE_ROOT; };
+		61AA89A8CDEF48528698850C /* /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		72C2773F730D455A8D8C4D10 /* hello-world */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "hello-world"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC534654F67F40189848E9AA /* /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C84B527CE8D745B8B1D65E37 /* /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/test/tests-main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "tests-main.cpp"; path = "test/tests-main.cpp"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61234AD7A8F9458A97DB546A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D4A4915D9784271970EA1CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72C2773F730D455A8D8C4D10 /* hello-world */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BCDEC3D68F94F30BE6E810A = {
+			isa = PBXGroup;
+			children = (
+				AB5E2A3141884B38A55DB160 /* test_hello-world */,
+				8A32DE74A3F946A498D6AF17 /* hello-world */,
+				3F09221FA8FB4998B06F420A /* ALL_BUILD */,
+				0D4A4915D9784271970EA1CD /* Products */,
+				BFE59D302AD64C4ABAEBB0FE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3F09221FA8FB4998B06F420A /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				6464D2E2ADCA48C481E2DF37 /* CMake Rules */,
+				13E3B99BE1944CE691EBCF0F /* /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		6464D2E2ADCA48C481E2DF37 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		8A32DE74A3F946A498D6AF17 /* hello-world */ = {
+			isa = PBXGroup;
+			children = (
+				E1D9B5160341422790FA1B22 /* Source Files */,
+				D49FC82296084AF8AF572B0D /* Header Files */,
+				AC534654F67F40189848E9AA /* /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/CMakeLists.txt */,
+			);
+			name = "hello-world";
+			sourceTree = "<group>";
+		};
+		AB5E2A3141884B38A55DB160 /* test_hello-world */ = {
+			isa = PBXGroup;
+			children = (
+				BE3C0406C3474921A22D438D /* CMake Rules */,
+				61AA89A8CDEF48528698850C /* /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/CMakeLists.txt */,
+			);
+			name = "test_hello-world";
+			sourceTree = "<group>";
+		};
+		BE3C0406C3474921A22D438D /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		BFE59D302AD64C4ABAEBB0FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D49FC82296084AF8AF572B0D /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D30C182364C46EA821CA634 /* /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/hello_world.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		E1D9B5160341422790FA1B22 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AF8A4892B7E4A7282416DC7 /* /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/hello_world.cpp */,
+				56763AE714994158B9AE6565 /* /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/hello_world_test.cpp */,
+				C84B527CE8D745B8B1D65E37 /* /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/test/tests-main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6572F03C68934333888AA018 /* hello-world */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28D04B2DCB6C4B44B3E479B9 /* Build configuration list for PBXNativeTarget "hello-world" */;
+			buildPhases = (
+				B2218CFDE3AA44CCBD44936A /* Sources */,
+				61234AD7A8F9458A97DB546A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5E5272E263D46F0A17FC6D5 /* PBXTargetDependency */,
+			);
+			name = "hello-world";
+			productName = "hello-world";
+			productReference = 72C2773F730D455A8D8C4D10 /* hello-world */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86AAB4BAA69D4855B3BD0B68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 3998DEE65A7D4E24AF56559B /* Build configuration list for PBXProject "hello-world" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				9F48FFBF62D94A5DA89693A6 /* Debug */,
+				9CB340281C46445D9A29128D /* Release */,
+				E472A113C47B4C32B449128A /* MinSizeRel */,
+				DC557DE1FD9C4F39A2EC76F8 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 1BCDEC3D68F94F30BE6E810A;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				E1751656B6094AFDB80804CC /* ALL_BUILD */,
+				70DC706F82644B6D96543725 /* ZERO_CHECK */,
+				6572F03C68934333888AA018 /* hello-world */,
+				997AEC5BCEBB4193A221961A /* test_hello-world */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D4622A5B41A6896A2F7021D = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		7A46CE862F93F636828572DF /* Generate CMakeFiles/test_hello-world */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build/Debug/hello-world","/users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build/MinSizeRel/hello-world","/users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build/RelWithDebInfo/hello-world","/users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build/Release/hello-world"			);
+			name = "Generate CMakeFiles/test_hello-world";
+			outputPaths = (
+"/users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build/CMakeFiles/test_hello-world"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build
+  /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build/Debug/hello-world
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build
+  /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build/Release/hello-world
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build
+  /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build/MinSizeRel/hello-world
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build
+  /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build/RelWithDebInfo/hello-world
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		8D1783D751649CE40BE3C4C8 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9BB2786984D466DCAF6604B9 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build
+  make -f /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build
+  make -f /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build
+  make -f /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build
+  make -f /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2218CFDE3AA44CCBD44936A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				233A502EB5FD4E2B851CFACC /* /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/hello_world.cpp */,
+				EF453BCE02CD4C7E921504C0 /* /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/hello_world_test.cpp */,
+				17C3C22DC504449C9AC77D1A /* /users/rdtaylorjr/Developer/Exercism/cpp/hello-world/test/tests-main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BDD00C9D4DF4F21AB0F5C35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70DC706F82644B6D96543725 /* ZERO_CHECK */;
+			targetProxy = 13650BE1562843AD93F60984 /* PBXContainerItemProxy */;
+		};
+		4C3E50BEE2AB4A42BF77C4C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 997AEC5BCEBB4193A221961A /* test_hello-world */;
+			targetProxy = B157F4D7C9844A26A9D7A6A2 /* PBXContainerItemProxy */;
+		};
+		9815C3E650114CAEB78050EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6572F03C68934333888AA018 /* hello-world */;
+			targetProxy = 47489026DC9F408BB8149C12 /* PBXContainerItemProxy */;
+		};
+		B5E5272E263D46F0A17FC6D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70DC706F82644B6D96543725 /* ZERO_CHECK */;
+			targetProxy = 4D277EC0659040B7AF1F21AD /* PBXContainerItemProxy */;
+		};
+		E69ABB7E897E4E8A90CC8409 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6572F03C68934333888AA018 /* hello-world */;
+			targetProxy = 44E9953C47AF43FC9B0F1481 /* PBXContainerItemProxy */;
+		};
+		ED23EDD52C82423B94AAFA4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70DC706F82644B6D96543725 /* ZERO_CHECK */;
+			targetProxy = 933A11F01E8145179EA5F29C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2A26AB6039DC43EF885B33FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "hello-world";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		318289863BCF494EB9720D6F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		449388E313394764B3FE2D31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		523C0545D8DA4E13A149D349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   -Wall -Wextra -Wpedantic -Werror '-std=c++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "hello-world";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		541AFBEE6022489EA2AE10BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build/build";
+			};
+			name = Debug;
+		};
+		633EEB30E5D84B0AAB427195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build/build";
+			};
+			name = Release;
+		};
+		6CD1FEF02D764DC6BB096296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		822D8B39523D4232B8256B81 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A0992B09354343E1B5BA6C5B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_hello-world";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A917B824F45D4A6890779D0E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "hello-world";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B9FBBA1D78D741EFAB84ECD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_hello-world";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		BF0AFAF53996416EA5448613 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C10A77BD83B64A75A4197A09 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_hello-world";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		CEE90092229D48D1B78F8AE2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "hello-world";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		DB05D10F0A5C43B1935FFC2F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E7643A29BB954DC9A080FBE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_hello-world";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F066B9EA44F64E158FAE84F1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build/build";
+			};
+			name = MinSizeRel;
+		};
+		F89D595C17DF4BD3B9F26537 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		FB834163953F4A2F950EB12B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		FCB5D81B82934EF7A684E84E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/hello-world/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		133252861FC84244A6FEE349 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCB5D81B82934EF7A684E84E /* Debug */,
+				6CD1FEF02D764DC6BB096296 /* Release */,
+				DB05D10F0A5C43B1935FFC2F /* MinSizeRel */,
+				BF0AFAF53996416EA5448613 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		28D04B2DCB6C4B44B3E479B9 /* Build configuration list for PBXNativeTarget "hello-world" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				523C0545D8DA4E13A149D349 /* Debug */,
+				2A26AB6039DC43EF885B33FC /* Release */,
+				CEE90092229D48D1B78F8AE2 /* MinSizeRel */,
+				A917B824F45D4A6890779D0E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3998DEE65A7D4E24AF56559B /* Build configuration list for PBXProject "hello-world" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				541AFBEE6022489EA2AE10BC /* Debug */,
+				633EEB30E5D84B0AAB427195 /* Release */,
+				F066B9EA44F64E158FAE84F1 /* MinSizeRel */,
+				F89D595C17DF4BD3B9F26537 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B4809BFD88D344418280AB1D /* Build configuration list for PBXAggregateTarget "test_hello-world" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7643A29BB954DC9A080FBE4 /* Debug */,
+				B9FBBA1D78D741EFAB84ECD6 /* Release */,
+				A0992B09354343E1B5BA6C5B /* MinSizeRel */,
+				C10A77BD83B64A75A4197A09 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B5C6B6AC37244E54BA9D12A6 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				449388E313394764B3FE2D31 /* Debug */,
+				FB834163953F4A2F950EB12B /* Release */,
+				318289863BCF494EB9720D6F /* MinSizeRel */,
+				822D8B39523D4232B8256B81 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86AAB4BAA69D4855B3BD0B68 /* Project object */;
+}
