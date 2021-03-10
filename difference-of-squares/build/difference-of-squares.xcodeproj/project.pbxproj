@@ -1,0 +1,929 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1C62CA2A52DE4C4F9FAF4659 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9B35419138344C87BAC52D7D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				B2AF3A15512DAF3604FBB0AF /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				521F9E96803A413B964D56FB /* PBXTargetDependency */,
+				1118804258024C28A6B32AC6 /* PBXTargetDependency */,
+				133A9DD02B4E45CAA2545C0A /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		80984F5EF0EF4AABA69DC667 /* test_difference-of-squares */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3C076CB5862045D9B6C29F34 /* Build configuration list for PBXAggregateTarget "test_difference-of-squares" */;
+			buildPhases = (
+				AA3FD3940443196FC0597D89 /* Generate CMakeFiles/test_difference-of-squares */,
+			);
+			dependencies = (
+				B7DB53A911754F37B08A6ADE /* PBXTargetDependency */,
+				E09F2F0548C64A7692850678 /* PBXTargetDependency */,
+			);
+			name = "test_difference-of-squares";
+			productName = "test_difference-of-squares";
+		};
+		9844077A506E43DFA2365A23 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 90349E24949C4400BF6FA38B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				11602E9FF0F4191518B28542 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1D151737D1CA407BB8F3FCB5 /* /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/difference_of_squares.h */ = {isa = PBXBuildFile; fileRef = FA3E7BC3476446BE8D48F17F /* /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/difference_of_squares.h */; };
+		1D18046CADB14F80ABD8F7A9 /* /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 1D8900F5394349E2B03DD739 /* /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/CMakeLists.txt */; };
+		6D1ED76AEE9449E895D4EB3B /* /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/difference_of_squares.cpp */ = {isa = PBXBuildFile; fileRef = EDA5CE87493544A9ABBE803D /* /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/difference_of_squares.cpp */; };
+		A6E514442D004607B97EB1EC /* /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/test/tests-main.cpp */ = {isa = PBXBuildFile; fileRef = 7C5F941B36FD4B529FA7E152 /* /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/test/tests-main.cpp */; };
+		FDA273E4B74540DE91AA5F6E /* /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/difference_of_squares_test.cpp */ = {isa = PBXBuildFile; fileRef = 479DA891C4E8428FB41A5A36 /* /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/difference_of_squares_test.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		3FC085E7974E4E3FA6EA4E24 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		6CD84DF8D4DA4E25A2CE5E31 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		8BE001F57DF74672AA78FBAE /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		E650B81368904EF498AC93CC /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		20C150A3CD7249B3B639DC27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 517F0FC9F0F04DA6AE324BD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8CB5E587D364869B20A9803;
+			remoteInfo = "difference-of-squares";
+		};
+		7560C992D0E147C98A9119F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 517F0FC9F0F04DA6AE324BD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9844077A506E43DFA2365A23;
+			remoteInfo = ZERO_CHECK;
+		};
+		9CDC1AF7350F4F57B751F607 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 517F0FC9F0F04DA6AE324BD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9844077A506E43DFA2365A23;
+			remoteInfo = ZERO_CHECK;
+		};
+		9F89B61C33384B97A7EFF35A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 517F0FC9F0F04DA6AE324BD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9844077A506E43DFA2365A23;
+			remoteInfo = ZERO_CHECK;
+		};
+		BE70D3EEAB5548C781135558 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 517F0FC9F0F04DA6AE324BD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80984F5EF0EF4AABA69DC667;
+			remoteInfo = "test_difference-of-squares";
+		};
+		D596AD0D475D4EED851EEFA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 517F0FC9F0F04DA6AE324BD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8CB5E587D364869B20A9803;
+			remoteInfo = "difference-of-squares";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D8900F5394349E2B03DD739 /* /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		206A1254B858451998FF5269 /* difference-of-squares */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "difference-of-squares"; sourceTree = BUILT_PRODUCTS_DIR; };
+		479DA891C4E8428FB41A5A36 /* /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/difference_of_squares_test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = difference_of_squares_test.cpp; path = difference_of_squares_test.cpp; sourceTree = SOURCE_ROOT; };
+		5E36B248E62049529864EC64 /* /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7C5F941B36FD4B529FA7E152 /* /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/test/tests-main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "tests-main.cpp"; path = "test/tests-main.cpp"; sourceTree = SOURCE_ROOT; };
+		7C80A3E6B0474D4C8C19143C /* /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		EDA5CE87493544A9ABBE803D /* /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/difference_of_squares.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = difference_of_squares.cpp; path = difference_of_squares.cpp; sourceTree = SOURCE_ROOT; };
+		FA3E7BC3476446BE8D48F17F /* /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/difference_of_squares.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = difference_of_squares.h; path = difference_of_squares.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48CC741292FD426D9DBF5898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		741D32A4033F463A8789D9B2 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDA5CE87493544A9ABBE803D /* /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/difference_of_squares.cpp */,
+				479DA891C4E8428FB41A5A36 /* /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/difference_of_squares_test.cpp */,
+				7C5F941B36FD4B529FA7E152 /* /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/test/tests-main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		890FA167B4FE422AAA2BE212 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				206A1254B858451998FF5269 /* difference-of-squares */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F235677AA6144FDA00BFBCF = {
+			isa = PBXGroup;
+			children = (
+				BB3EBD4B1A334266B95A33D0 /* test_difference-of-squares */,
+				8F76A115EF0F4ECEA4926F6C /* difference-of-squares */,
+				8FDBE1CDE78C40329F5F2CDB /* ALL_BUILD */,
+				890FA167B4FE422AAA2BE212 /* Products */,
+				BF274952844C4473AB29B15D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8F76A115EF0F4ECEA4926F6C /* difference-of-squares */ = {
+			isa = PBXGroup;
+			children = (
+				741D32A4033F463A8789D9B2 /* Source Files */,
+				926B0E86F8EB422C9379CBDB /* Header Files */,
+				1D8900F5394349E2B03DD739 /* /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/CMakeLists.txt */,
+			);
+			name = "difference-of-squares";
+			sourceTree = "<group>";
+		};
+		8FDBE1CDE78C40329F5F2CDB /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				F9262B2ED7A84BAF9A9E42EE /* CMake Rules */,
+				7C80A3E6B0474D4C8C19143C /* /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		926B0E86F8EB422C9379CBDB /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA3E7BC3476446BE8D48F17F /* /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/difference_of_squares.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		BB3EBD4B1A334266B95A33D0 /* test_difference-of-squares */ = {
+			isa = PBXGroup;
+			children = (
+				D5A52A7549254AD499D3F54C /* CMake Rules */,
+				5E36B248E62049529864EC64 /* /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/CMakeLists.txt */,
+			);
+			name = "test_difference-of-squares";
+			sourceTree = "<group>";
+		};
+		BF274952844C4473AB29B15D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5A52A7549254AD499D3F54C /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		F9262B2ED7A84BAF9A9E42EE /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8CB5E587D364869B20A9803 /* difference-of-squares */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 704A4F4ED5124DE4BCB5E952 /* Build configuration list for PBXNativeTarget "difference-of-squares" */;
+			buildPhases = (
+				1A0B1319C7D54E92B2402489 /* Sources */,
+				48CC741292FD426D9DBF5898 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A98B07FAEED412DAA43B983 /* PBXTargetDependency */,
+			);
+			name = "difference-of-squares";
+			productName = "difference-of-squares";
+			productReference = 206A1254B858451998FF5269 /* difference-of-squares */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		517F0FC9F0F04DA6AE324BD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 9722C595EE834C1AA2CFCB0E /* Build configuration list for PBXProject "difference-of-squares" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				3FC085E7974E4E3FA6EA4E24 /* Debug */,
+				E650B81368904EF498AC93CC /* Release */,
+				6CD84DF8D4DA4E25A2CE5E31 /* MinSizeRel */,
+				8BE001F57DF74672AA78FBAE /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 8F235677AA6144FDA00BFBCF;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				1C62CA2A52DE4C4F9FAF4659 /* ALL_BUILD */,
+				9844077A506E43DFA2365A23 /* ZERO_CHECK */,
+				B8CB5E587D364869B20A9803 /* difference-of-squares */,
+				80984F5EF0EF4AABA69DC667 /* test_difference-of-squares */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11602E9FF0F4191518B28542 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build
+  make -f /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build
+  make -f /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build
+  make -f /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build
+  make -f /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		9C115C794F30271576E25BAD = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		AA3FD3940443196FC0597D89 /* Generate CMakeFiles/test_difference-of-squares */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build/Debug/difference-of-squares","/users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build/MinSizeRel/difference-of-squares","/users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build/RelWithDebInfo/difference-of-squares","/users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build/Release/difference-of-squares"			);
+			name = "Generate CMakeFiles/test_difference-of-squares";
+			outputPaths = (
+"/users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build/CMakeFiles/test_difference-of-squares"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build
+  /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build/Debug/difference-of-squares
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build
+  /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build/Release/difference-of-squares
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build
+  /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build/MinSizeRel/difference-of-squares
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build
+  /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build/RelWithDebInfo/difference-of-squares
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		B2AF3A15512DAF3604FBB0AF /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A0B1319C7D54E92B2402489 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D1ED76AEE9449E895D4EB3B /* /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/difference_of_squares.cpp */,
+				FDA273E4B74540DE91AA5F6E /* /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/difference_of_squares_test.cpp */,
+				A6E514442D004607B97EB1EC /* /users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/test/tests-main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1118804258024C28A6B32AC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80984F5EF0EF4AABA69DC667 /* test_difference-of-squares */;
+			targetProxy = BE70D3EEAB5548C781135558 /* PBXContainerItemProxy */;
+		};
+		133A9DD02B4E45CAA2545C0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9844077A506E43DFA2365A23 /* ZERO_CHECK */;
+			targetProxy = 7560C992D0E147C98A9119F4 /* PBXContainerItemProxy */;
+		};
+		521F9E96803A413B964D56FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8CB5E587D364869B20A9803 /* difference-of-squares */;
+			targetProxy = 20C150A3CD7249B3B639DC27 /* PBXContainerItemProxy */;
+		};
+		8A98B07FAEED412DAA43B983 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9844077A506E43DFA2365A23 /* ZERO_CHECK */;
+			targetProxy = 9CDC1AF7350F4F57B751F607 /* PBXContainerItemProxy */;
+		};
+		B7DB53A911754F37B08A6ADE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8CB5E587D364869B20A9803 /* difference-of-squares */;
+			targetProxy = D596AD0D475D4EED851EEFA7 /* PBXContainerItemProxy */;
+		};
+		E09F2F0548C64A7692850678 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9844077A506E43DFA2365A23 /* ZERO_CHECK */;
+			targetProxy = 9F89B61C33384B97A7EFF35A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D0F53B1299946BFAA0BFD6B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		0E3B5D09485A4B3BB31CD4CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build/build";
+			};
+			name = Release;
+		};
+		2045E3A13D804147BFAEB4B6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_difference-of-squares";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2A7C21047E834CECADFD17A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		30CC07D1460746049A14FCBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		350FCC104B494678A802881B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build/build";
+			};
+			name = Debug;
+		};
+		351489D7DDE441E199DC2025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_difference-of-squares";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		3E937F75B8D347008D873C58 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_difference-of-squares";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5079FCAE65AE416DBEFA5971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   -Wall -Wextra -Wpedantic -Werror '-std=c++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "difference-of-squares";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		72416FB8862B47AB866300C6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "difference-of-squares";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		749EA6B4DACD4B0C8D82F52A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7A64D6532A2142A7AF60A86F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "difference-of-squares";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		99998BF91FB5413F8C80CCE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A53397088D3844E389F6BFA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_difference-of-squares";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B524B07AAC1F4C4891CB6F71 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "difference-of-squares";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		BF1DA51052FA46B3ABF7C3DD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D9974DBDEE3F417691F564EB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E1AFC64769D445F0A597F20F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build/build";
+			};
+			name = MinSizeRel;
+		};
+		E3F11A6F075847CC9369AB25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		EE7C0E8D4B3A434A9F799501 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C076CB5862045D9B6C29F34 /* Build configuration list for PBXAggregateTarget "test_difference-of-squares" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53397088D3844E389F6BFA5 /* Debug */,
+				351489D7DDE441E199DC2025 /* Release */,
+				3E937F75B8D347008D873C58 /* MinSizeRel */,
+				2045E3A13D804147BFAEB4B6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		704A4F4ED5124DE4BCB5E952 /* Build configuration list for PBXNativeTarget "difference-of-squares" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5079FCAE65AE416DBEFA5971 /* Debug */,
+				7A64D6532A2142A7AF60A86F /* Release */,
+				72416FB8862B47AB866300C6 /* MinSizeRel */,
+				B524B07AAC1F4C4891CB6F71 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		90349E24949C4400BF6FA38B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99998BF91FB5413F8C80CCE4 /* Debug */,
+				2A7C21047E834CECADFD17A5 /* Release */,
+				0D0F53B1299946BFAA0BFD6B /* MinSizeRel */,
+				749EA6B4DACD4B0C8D82F52A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9722C595EE834C1AA2CFCB0E /* Build configuration list for PBXProject "difference-of-squares" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				350FCC104B494678A802881B /* Debug */,
+				0E3B5D09485A4B3BB31CD4CE /* Release */,
+				E1AFC64769D445F0A597F20F /* MinSizeRel */,
+				EE7C0E8D4B3A434A9F799501 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9B35419138344C87BAC52D7D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30CC07D1460746049A14FCBE /* Debug */,
+				E3F11A6F075847CC9369AB25 /* Release */,
+				BF1DA51052FA46B3ABF7C3DD /* MinSizeRel */,
+				D9974DBDEE3F417691F564EB /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 517F0FC9F0F04DA6AE324BD6 /* Project object */;
+}

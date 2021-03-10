@@ -1,0 +1,4 @@
+/users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build/CMakeFiles/test_difference-of-squares.dir
+/users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build/CMakeFiles/difference-of-squares.dir
+/users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build/CMakeFiles/ALL_BUILD.dir
+/users/rdtaylorjr/Developer/Exercism/cpp/difference-of-squares/build/CMakeFiles/ZERO_CHECK.dir
