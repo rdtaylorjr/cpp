@@ -1,2 +1,2 @@
-# Exercism-Cpp
+# cpp
 C++ practice exercises from exercism.io
