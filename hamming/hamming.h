@@ -5,7 +5,7 @@
 
 namespace hamming {
 
-int compute(std::string, std::string);
+std::size_t compute(std::string const& a, std::string const& b);
 
 }  // namespace hamming
 
