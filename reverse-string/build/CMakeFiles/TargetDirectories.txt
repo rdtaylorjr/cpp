@@ -1,0 +1,4 @@
+/users/rdtaylorjr/Developer/Exercism/cpp/reverse-string/build/CMakeFiles/test_reverse-string.dir
+/users/rdtaylorjr/Developer/Exercism/cpp/reverse-string/build/CMakeFiles/reverse-string.dir
+/users/rdtaylorjr/Developer/Exercism/cpp/reverse-string/build/CMakeFiles/ALL_BUILD.dir
+/users/rdtaylorjr/Developer/Exercism/cpp/reverse-string/build/CMakeFiles/ZERO_CHECK.dir
