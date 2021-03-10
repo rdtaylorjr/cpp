@@ -1,0 +1,929 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		524B9DC501844F8682BADCA1 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4DFC0D87B2E44573B59E3473 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				83790CA4178C75F126954EA2 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				ED8697EFC7A7465791541002 /* PBXTargetDependency */,
+				BC911A3930FB46AA9AF3A4F9 /* PBXTargetDependency */,
+				E1B6E0EC3D4A4C90AFBD29BA /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		5DEF6ACBFDF04401B487BC50 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F7653B544C5B4FE889E239FB /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				CCB88C402A928CB305D9E387 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		A2980DED720B4BC3A6DDFACB /* test_hamming */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A3A6A8AF92D04A79AAC4A920 /* Build configuration list for PBXAggregateTarget "test_hamming" */;
+			buildPhases = (
+				EB7E0AD067E9F5C514893733 /* Generate CMakeFiles/test_hamming */,
+			);
+			dependencies = (
+				9D4A559B75694847A3E3F75C /* PBXTargetDependency */,
+				98061BCAB09F460ABBB1674C /* PBXTargetDependency */,
+			);
+			name = test_hamming;
+			productName = test_hamming;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0A5B9073A1D7410DA6B51408 /* /users/rdtaylorjr/Developer/Exercism/cpp/hamming/hamming_test.cpp */ = {isa = PBXBuildFile; fileRef = C41B4FE1109149CA878F6933 /* /users/rdtaylorjr/Developer/Exercism/cpp/hamming/hamming_test.cpp */; };
+		52EE09C2F88F4A08B118349A /* /users/rdtaylorjr/Developer/Exercism/cpp/hamming/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 917AB420449E48E19DCB3363 /* /users/rdtaylorjr/Developer/Exercism/cpp/hamming/CMakeLists.txt */; };
+		9CA98E655ADD4B038DBEAF2A /* /users/rdtaylorjr/Developer/Exercism/cpp/hamming/test/tests-main.cpp */ = {isa = PBXBuildFile; fileRef = 36180CDC376E4F1FA93CEDDE /* /users/rdtaylorjr/Developer/Exercism/cpp/hamming/test/tests-main.cpp */; };
+		C458B1BE0A98422D941B71BE /* /users/rdtaylorjr/Developer/Exercism/cpp/hamming/hamming.cpp */ = {isa = PBXBuildFile; fileRef = C90843C09F2744DD8293B9F2 /* /users/rdtaylorjr/Developer/Exercism/cpp/hamming/hamming.cpp */; };
+		F4AB756C8BBB4F9B9483360C /* /users/rdtaylorjr/Developer/Exercism/cpp/hamming/hamming.h */ = {isa = PBXBuildFile; fileRef = 9286A4E30BE04B7285E23C2C /* /users/rdtaylorjr/Developer/Exercism/cpp/hamming/hamming.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		6B2458D5CC044B148E9A978A /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		A09F93DAB33A49ACBB1C0FE0 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		B9B28FD3BCCC43C89E35D92E /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		CA544E63F69F48EC9C5D05FA /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		17412665B8BE4A6E9CFDA208 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7773C23BE2774AB588BA3536 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DEF6ACBFDF04401B487BC50;
+			remoteInfo = ZERO_CHECK;
+		};
+		7DFA4B965CE9485BBA355BE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7773C23BE2774AB588BA3536 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DEF6ACBFDF04401B487BC50;
+			remoteInfo = ZERO_CHECK;
+		};
+		B80C11943D324D8B99BCA317 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7773C23BE2774AB588BA3536 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DEF6ACBFDF04401B487BC50;
+			remoteInfo = ZERO_CHECK;
+		};
+		C0595F3EC71A422D80B5B1AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7773C23BE2774AB588BA3536 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2980DED720B4BC3A6DDFACB;
+			remoteInfo = test_hamming;
+		};
+		D49DDD0593E34A498D41BEA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7773C23BE2774AB588BA3536 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF687A54156C4D8AAEB8C091;
+			remoteInfo = hamming;
+		};
+		E915892477A64722A630EC03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7773C23BE2774AB588BA3536 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF687A54156C4D8AAEB8C091;
+			remoteInfo = hamming;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36180CDC376E4F1FA93CEDDE /* /users/rdtaylorjr/Developer/Exercism/cpp/hamming/test/tests-main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "tests-main.cpp"; path = "test/tests-main.cpp"; sourceTree = SOURCE_ROOT; };
+		6166BB91279B4B3EAE95138D /* hamming */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = hamming; sourceTree = BUILT_PRODUCTS_DIR; };
+		917AB420449E48E19DCB3363 /* /users/rdtaylorjr/Developer/Exercism/cpp/hamming/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9286A4E30BE04B7285E23C2C /* /users/rdtaylorjr/Developer/Exercism/cpp/hamming/hamming.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = hamming.h; path = hamming.h; sourceTree = SOURCE_ROOT; };
+		C41B4FE1109149CA878F6933 /* /users/rdtaylorjr/Developer/Exercism/cpp/hamming/hamming_test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hamming_test.cpp; path = hamming_test.cpp; sourceTree = SOURCE_ROOT; };
+		C90843C09F2744DD8293B9F2 /* /users/rdtaylorjr/Developer/Exercism/cpp/hamming/hamming.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hamming.cpp; path = hamming.cpp; sourceTree = SOURCE_ROOT; };
+		CBC0A5325C174E118DC69330 /* /users/rdtaylorjr/Developer/Exercism/cpp/hamming/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D0F45CFE8D864C25966034AD /* /users/rdtaylorjr/Developer/Exercism/cpp/hamming/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33C43E4383A64A17BFB4B675 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		395185C463BE458A8298696C /* test_hamming */ = {
+			isa = PBXGroup;
+			children = (
+				7F55DECE8A384912A4EA0584 /* CMake Rules */,
+				D0F45CFE8D864C25966034AD /* /users/rdtaylorjr/Developer/Exercism/cpp/hamming/CMakeLists.txt */,
+			);
+			name = test_hamming;
+			sourceTree = "<group>";
+		};
+		3E56845A5EE949C5A1A1AD38 = {
+			isa = PBXGroup;
+			children = (
+				395185C463BE458A8298696C /* test_hamming */,
+				4E547CFAA4524651A3A0096D /* hamming */,
+				4B07A1ED488E43C8B658C96E /* ALL_BUILD */,
+				C07190E4A86444BCB7CFA4D2 /* Products */,
+				7C75DD928F88492280221B26 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4B07A1ED488E43C8B658C96E /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				DA13B5670D7C46769F784302 /* CMake Rules */,
+				CBC0A5325C174E118DC69330 /* /users/rdtaylorjr/Developer/Exercism/cpp/hamming/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		4E547CFAA4524651A3A0096D /* hamming */ = {
+			isa = PBXGroup;
+			children = (
+				DEF1AD49776145F58F3EC4A3 /* Source Files */,
+				7D49F65CE45A488CAA1B51A4 /* Header Files */,
+				917AB420449E48E19DCB3363 /* /users/rdtaylorjr/Developer/Exercism/cpp/hamming/CMakeLists.txt */,
+			);
+			name = hamming;
+			sourceTree = "<group>";
+		};
+		7C75DD928F88492280221B26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D49F65CE45A488CAA1B51A4 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				9286A4E30BE04B7285E23C2C /* /users/rdtaylorjr/Developer/Exercism/cpp/hamming/hamming.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		7F55DECE8A384912A4EA0584 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		C07190E4A86444BCB7CFA4D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6166BB91279B4B3EAE95138D /* hamming */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA13B5670D7C46769F784302 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		DEF1AD49776145F58F3EC4A3 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				C90843C09F2744DD8293B9F2 /* /users/rdtaylorjr/Developer/Exercism/cpp/hamming/hamming.cpp */,
+				C41B4FE1109149CA878F6933 /* /users/rdtaylorjr/Developer/Exercism/cpp/hamming/hamming_test.cpp */,
+				36180CDC376E4F1FA93CEDDE /* /users/rdtaylorjr/Developer/Exercism/cpp/hamming/test/tests-main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF687A54156C4D8AAEB8C091 /* hamming */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 639A56463F8C4D9EB1B93BE8 /* Build configuration list for PBXNativeTarget "hamming" */;
+			buildPhases = (
+				51123CA64FEA4415B87C4D83 /* Sources */,
+				33C43E4383A64A17BFB4B675 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B12D4104798C4F46845DC566 /* PBXTargetDependency */,
+			);
+			name = hamming;
+			productName = hamming;
+			productReference = 6166BB91279B4B3EAE95138D /* hamming */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7773C23BE2774AB588BA3536 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 3B46D9A7C28A4454A8AF6562 /* Build configuration list for PBXProject "hamming" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				6B2458D5CC044B148E9A978A /* Debug */,
+				B9B28FD3BCCC43C89E35D92E /* Release */,
+				CA544E63F69F48EC9C5D05FA /* MinSizeRel */,
+				A09F93DAB33A49ACBB1C0FE0 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 3E56845A5EE949C5A1A1AD38;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				524B9DC501844F8682BADCA1 /* ALL_BUILD */,
+				5DEF6ACBFDF04401B487BC50 /* ZERO_CHECK */,
+				CF687A54156C4D8AAEB8C091 /* hamming */,
+				A2980DED720B4BC3A6DDFACB /* test_hamming */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		5AA4D298A61CF4188897580A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		83790CA4178C75F126954EA2 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/users/rdtaylorjr/Developer/Exercism/cpp/hamming/build/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/hamming/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/hamming/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/hamming/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/hamming/build
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		CCB88C402A928CB305D9E387 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/users/rdtaylorjr/Developer/Exercism/cpp/hamming/build/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/hamming/build
+  make -f /users/rdtaylorjr/Developer/Exercism/cpp/hamming/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/hamming/build
+  make -f /users/rdtaylorjr/Developer/Exercism/cpp/hamming/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/hamming/build
+  make -f /users/rdtaylorjr/Developer/Exercism/cpp/hamming/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/hamming/build
+  make -f /users/rdtaylorjr/Developer/Exercism/cpp/hamming/build/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		EB7E0AD067E9F5C514893733 /* Generate CMakeFiles/test_hamming */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+/users/rdtaylorjr/Developer/Exercism/cpp/hamming/build/Debug/hamming,/users/rdtaylorjr/Developer/Exercism/cpp/hamming/build/MinSizeRel/hamming,/users/rdtaylorjr/Developer/Exercism/cpp/hamming/build/RelWithDebInfo/hamming,/users/rdtaylorjr/Developer/Exercism/cpp/hamming/build/Release/hamming			);
+			name = "Generate CMakeFiles/test_hamming";
+			outputPaths = (
+/users/rdtaylorjr/Developer/Exercism/cpp/hamming/build/CMakeFiles/test_hamming			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/hamming/build
+  /users/rdtaylorjr/Developer/Exercism/cpp/hamming/build/Debug/hamming
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/hamming/build
+  /users/rdtaylorjr/Developer/Exercism/cpp/hamming/build/Release/hamming
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/hamming/build
+  /users/rdtaylorjr/Developer/Exercism/cpp/hamming/build/MinSizeRel/hamming
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/hamming/build
+  /users/rdtaylorjr/Developer/Exercism/cpp/hamming/build/RelWithDebInfo/hamming
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51123CA64FEA4415B87C4D83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C458B1BE0A98422D941B71BE /* /users/rdtaylorjr/Developer/Exercism/cpp/hamming/hamming.cpp */,
+				0A5B9073A1D7410DA6B51408 /* /users/rdtaylorjr/Developer/Exercism/cpp/hamming/hamming_test.cpp */,
+				9CA98E655ADD4B038DBEAF2A /* /users/rdtaylorjr/Developer/Exercism/cpp/hamming/test/tests-main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98061BCAB09F460ABBB1674C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DEF6ACBFDF04401B487BC50 /* ZERO_CHECK */;
+			targetProxy = 17412665B8BE4A6E9CFDA208 /* PBXContainerItemProxy */;
+		};
+		9D4A559B75694847A3E3F75C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF687A54156C4D8AAEB8C091 /* hamming */;
+			targetProxy = D49DDD0593E34A498D41BEA3 /* PBXContainerItemProxy */;
+		};
+		B12D4104798C4F46845DC566 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DEF6ACBFDF04401B487BC50 /* ZERO_CHECK */;
+			targetProxy = B80C11943D324D8B99BCA317 /* PBXContainerItemProxy */;
+		};
+		BC911A3930FB46AA9AF3A4F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF687A54156C4D8AAEB8C091 /* hamming */;
+			targetProxy = E915892477A64722A630EC03 /* PBXContainerItemProxy */;
+		};
+		E1B6E0EC3D4A4C90AFBD29BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DEF6ACBFDF04401B487BC50 /* ZERO_CHECK */;
+			targetProxy = 7DFA4B965CE9485BBA355BE3 /* PBXContainerItemProxy */;
+		};
+		ED8697EFC7A7465791541002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2980DED720B4BC3A6DDFACB /* test_hamming */;
+			targetProxy = C0595F3EC71A422D80B5B1AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		191E8F46A2CD4AF68DAEDD1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /users/rdtaylorjr/Developer/Exercism/cpp/hamming/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		2961F4B1F0AD4E97A84DE616 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = hamming;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /users/rdtaylorjr/Developer/Exercism/cpp/hamming/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		320F5B71B0BF47E491B6D866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /users/rdtaylorjr/Developer/Exercism/cpp/hamming/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		362F0E187DA2440BBD2FF655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test_hamming;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /users/rdtaylorjr/Developer/Exercism/cpp/hamming/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4EC75EB079144A0AB425455B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /users/rdtaylorjr/Developer/Exercism/cpp/hamming/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5079C98C648545B1A7F8E78A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /users/rdtaylorjr/Developer/Exercism/cpp/hamming/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		53FE154E0C67413381839121 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = hamming;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /users/rdtaylorjr/Developer/Exercism/cpp/hamming/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		60C9B96C20EB41239F908B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test_hamming;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /users/rdtaylorjr/Developer/Exercism/cpp/hamming/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		6BFCC154F58143CEA8BFF146 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /users/rdtaylorjr/Developer/Exercism/cpp/hamming/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		857730E03ACF475A9A56518B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test_hamming;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /users/rdtaylorjr/Developer/Exercism/cpp/hamming/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8FD5EC9DA938485EB360396E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /users/rdtaylorjr/Developer/Exercism/cpp/hamming/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		9542CD4B583B4A84B7CD2FAF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = /users/rdtaylorjr/Developer/Exercism/cpp/hamming/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		9C8A8751CE54401C90079DB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /users/rdtaylorjr/Developer/Exercism/cpp/hamming/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		AF6AA705CEFB42D381E52257 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = /users/rdtaylorjr/Developer/Exercism/cpp/hamming/build/build;
+			};
+			name = MinSizeRel;
+		};
+		B237838EDBDD4041BD65802B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = hamming;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /users/rdtaylorjr/Developer/Exercism/cpp/hamming/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C1AD218FC92B46D182C9A6EF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /users/rdtaylorjr/Developer/Exercism/cpp/hamming/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D1108DA4B80C4386AE27E8CF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test_hamming;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /users/rdtaylorjr/Developer/Exercism/cpp/hamming/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DCF42511C3D242B28A5BDB85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = /users/rdtaylorjr/Developer/Exercism/cpp/hamming/build/build;
+			};
+			name = Debug;
+		};
+		EF3B9B1F19244608A1901980 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   -Wall -Wextra -Wpedantic -Werror '-std=c++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = hamming;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /users/rdtaylorjr/Developer/Exercism/cpp/hamming/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F98BD5A219A4498696A3E5C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = /users/rdtaylorjr/Developer/Exercism/cpp/hamming/build/build;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B46D9A7C28A4454A8AF6562 /* Build configuration list for PBXProject "hamming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCF42511C3D242B28A5BDB85 /* Debug */,
+				F98BD5A219A4498696A3E5C6 /* Release */,
+				AF6AA705CEFB42D381E52257 /* MinSizeRel */,
+				9542CD4B583B4A84B7CD2FAF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4DFC0D87B2E44573B59E3473 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				191E8F46A2CD4AF68DAEDD1E /* Debug */,
+				320F5B71B0BF47E491B6D866 /* Release */,
+				4EC75EB079144A0AB425455B /* MinSizeRel */,
+				C1AD218FC92B46D182C9A6EF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		639A56463F8C4D9EB1B93BE8 /* Build configuration list for PBXNativeTarget "hamming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3B9B1F19244608A1901980 /* Debug */,
+				B237838EDBDD4041BD65802B /* Release */,
+				53FE154E0C67413381839121 /* MinSizeRel */,
+				2961F4B1F0AD4E97A84DE616 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A3A6A8AF92D04A79AAC4A920 /* Build configuration list for PBXAggregateTarget "test_hamming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60C9B96C20EB41239F908B21 /* Debug */,
+				362F0E187DA2440BBD2FF655 /* Release */,
+				857730E03ACF475A9A56518B /* MinSizeRel */,
+				D1108DA4B80C4386AE27E8CF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F7653B544C5B4FE889E239FB /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FD5EC9DA938485EB360396E /* Debug */,
+				9C8A8751CE54401C90079DB8 /* Release */,
+				6BFCC154F58143CEA8BFF146 /* MinSizeRel */,
+				5079C98C648545B1A7F8E78A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7773C23BE2774AB588BA3536 /* Project object */;
+}
