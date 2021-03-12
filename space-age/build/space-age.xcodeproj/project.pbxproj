@@ -1,0 +1,929 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		96C535BBF3FA41F89BA02942 /* test_space-age */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7C931C3A49CE47F7B7737481 /* Build configuration list for PBXAggregateTarget "test_space-age" */;
+			buildPhases = (
+				2437304DC96AF8B33779AD80 /* Generate CMakeFiles/test_space-age */,
+			);
+			dependencies = (
+				610CB8F218724EFEB6CDC2D9 /* PBXTargetDependency */,
+				85B3D31FBA8A4DADBB02B34D /* PBXTargetDependency */,
+			);
+			name = "test_space-age";
+			productName = "test_space-age";
+		};
+		AEF0F98F09064CA3A6AD7F0D /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 193CD27380F3489BA1EA1266 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				CA24485C793581931DA12556 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		E321D2BCF5CC4668880B7C0B /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 929EE6F872454459AB5EB073 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				44FF646D4C413F3DA46D46BE /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				931306172470420F8EFA1B80 /* PBXTargetDependency */,
+				9DA432F3C7D249A8996BEC97 /* PBXTargetDependency */,
+				6290252C3C664A8CA4F75C6C /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		6FEBCD7393A2410EA2B95B58 /* /users/rdtaylorjr/Developer/Exercism/cpp/space-age/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = DAFB5F7C02C64E9FA6A147AB /* /users/rdtaylorjr/Developer/Exercism/cpp/space-age/CMakeLists.txt */; };
+		B4FDA4C7E06A402597371F4D /* /users/rdtaylorjr/Developer/Exercism/cpp/space-age/space_age.h */ = {isa = PBXBuildFile; fileRef = 23DB25E3BDFC489D86DBD32D /* /users/rdtaylorjr/Developer/Exercism/cpp/space-age/space_age.h */; };
+		B75A1201F8E242B4A2278FEC /* /users/rdtaylorjr/Developer/Exercism/cpp/space-age/space_age.cpp */ = {isa = PBXBuildFile; fileRef = 155A76EDCA6144F9B5CDF73F /* /users/rdtaylorjr/Developer/Exercism/cpp/space-age/space_age.cpp */; };
+		EAF0F88506A94A5A9314897B /* /users/rdtaylorjr/Developer/Exercism/cpp/space-age/space_age_test.cpp */ = {isa = PBXBuildFile; fileRef = E51CD825B4974816BB78FA46 /* /users/rdtaylorjr/Developer/Exercism/cpp/space-age/space_age_test.cpp */; };
+		FA98B501DD37418BAA55833B /* /users/rdtaylorjr/Developer/Exercism/cpp/space-age/test/tests-main.cpp */ = {isa = PBXBuildFile; fileRef = F0C4CE3BD5B34F9DAE004C57 /* /users/rdtaylorjr/Developer/Exercism/cpp/space-age/test/tests-main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		179EB35EE8CA42CEA2E65EC6 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		320BDEEC1C264A82A56F9A70 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		8054046C5F0D49FCBB591EFF /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		D2A5450BEF2E405781A84B69 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		03419D058C7A41C0843E632C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB5B38D670234E3CB4325BA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEF0F98F09064CA3A6AD7F0D;
+			remoteInfo = ZERO_CHECK;
+		};
+		03755E257A7D49D48144AEBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB5B38D670234E3CB4325BA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEF0F98F09064CA3A6AD7F0D;
+			remoteInfo = ZERO_CHECK;
+		};
+		2B60E5D97E0F4534B4CEA0BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB5B38D670234E3CB4325BA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEF0F98F09064CA3A6AD7F0D;
+			remoteInfo = ZERO_CHECK;
+		};
+		60917E22B172403A815F8527 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB5B38D670234E3CB4325BA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F774F77BF024907A252311F;
+			remoteInfo = "space-age";
+		};
+		852FCD59EDB3469783F2CCB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB5B38D670234E3CB4325BA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96C535BBF3FA41F89BA02942;
+			remoteInfo = "test_space-age";
+		};
+		C3A55B0F2DE9444AAAA73CA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB5B38D670234E3CB4325BA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F774F77BF024907A252311F;
+			remoteInfo = "space-age";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		155A76EDCA6144F9B5CDF73F /* /users/rdtaylorjr/Developer/Exercism/cpp/space-age/space_age.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = space_age.cpp; path = space_age.cpp; sourceTree = SOURCE_ROOT; };
+		23DB25E3BDFC489D86DBD32D /* /users/rdtaylorjr/Developer/Exercism/cpp/space-age/space_age.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = space_age.h; path = space_age.h; sourceTree = SOURCE_ROOT; };
+		3FC6805BF6C54494B9627EE4 /* space-age */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "space-age"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCECF03E98BB4C21A05F52A1 /* /users/rdtaylorjr/Developer/Exercism/cpp/space-age/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D772BC03310E424F84B09C48 /* /users/rdtaylorjr/Developer/Exercism/cpp/space-age/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		DAFB5F7C02C64E9FA6A147AB /* /users/rdtaylorjr/Developer/Exercism/cpp/space-age/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E51CD825B4974816BB78FA46 /* /users/rdtaylorjr/Developer/Exercism/cpp/space-age/space_age_test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = space_age_test.cpp; path = space_age_test.cpp; sourceTree = SOURCE_ROOT; };
+		F0C4CE3BD5B34F9DAE004C57 /* /users/rdtaylorjr/Developer/Exercism/cpp/space-age/test/tests-main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "tests-main.cpp"; path = "test/tests-main.cpp"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		515251AC49B34903BA545363 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CE3E4AB9A9D4C999D672AB2 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		3239314CBF64407B80436D4F /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				7536CD297A1E429EB3BA2CC7 /* CMake Rules */,
+				D772BC03310E424F84B09C48 /* /users/rdtaylorjr/Developer/Exercism/cpp/space-age/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		36C2100E69F14A99804540F7 = {
+			isa = PBXGroup;
+			children = (
+				BF308D2081A74D099017475D /* test_space-age */,
+				E580B4F21B834519A9C8B775 /* space-age */,
+				3239314CBF64407B80436D4F /* ALL_BUILD */,
+				762B94A8173A4EA89BA3C507 /* Products */,
+				D24EE04F4BC14FE1833874BE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		66BBA50910524A86B9AE4D7B /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				23DB25E3BDFC489D86DBD32D /* /users/rdtaylorjr/Developer/Exercism/cpp/space-age/space_age.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		7536CD297A1E429EB3BA2CC7 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		762B94A8173A4EA89BA3C507 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FC6805BF6C54494B9627EE4 /* space-age */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B41C9B7074FA41339B3BD1EE /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				155A76EDCA6144F9B5CDF73F /* /users/rdtaylorjr/Developer/Exercism/cpp/space-age/space_age.cpp */,
+				E51CD825B4974816BB78FA46 /* /users/rdtaylorjr/Developer/Exercism/cpp/space-age/space_age_test.cpp */,
+				F0C4CE3BD5B34F9DAE004C57 /* /users/rdtaylorjr/Developer/Exercism/cpp/space-age/test/tests-main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		BF308D2081A74D099017475D /* test_space-age */ = {
+			isa = PBXGroup;
+			children = (
+				0CE3E4AB9A9D4C999D672AB2 /* CMake Rules */,
+				BCECF03E98BB4C21A05F52A1 /* /users/rdtaylorjr/Developer/Exercism/cpp/space-age/CMakeLists.txt */,
+			);
+			name = "test_space-age";
+			sourceTree = "<group>";
+		};
+		D24EE04F4BC14FE1833874BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E580B4F21B834519A9C8B775 /* space-age */ = {
+			isa = PBXGroup;
+			children = (
+				B41C9B7074FA41339B3BD1EE /* Source Files */,
+				66BBA50910524A86B9AE4D7B /* Header Files */,
+				DAFB5F7C02C64E9FA6A147AB /* /users/rdtaylorjr/Developer/Exercism/cpp/space-age/CMakeLists.txt */,
+			);
+			name = "space-age";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F774F77BF024907A252311F /* space-age */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 552CC21515AB4EB1BBAF7908 /* Build configuration list for PBXNativeTarget "space-age" */;
+			buildPhases = (
+				3A3C40C0743C43F3A8F656B3 /* Sources */,
+				515251AC49B34903BA545363 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				733A610634FC4BAC86453684 /* PBXTargetDependency */,
+			);
+			name = "space-age";
+			productName = "space-age";
+			productReference = 3FC6805BF6C54494B9627EE4 /* space-age */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB5B38D670234E3CB4325BA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 518E54B057064BDF911739C3 /* Build configuration list for PBXProject "space-age" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				320BDEEC1C264A82A56F9A70 /* Debug */,
+				179EB35EE8CA42CEA2E65EC6 /* Release */,
+				D2A5450BEF2E405781A84B69 /* MinSizeRel */,
+				8054046C5F0D49FCBB591EFF /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 36C2100E69F14A99804540F7;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				E321D2BCF5CC4668880B7C0B /* ALL_BUILD */,
+				AEF0F98F09064CA3A6AD7F0D /* ZERO_CHECK */,
+				8F774F77BF024907A252311F /* space-age */,
+				96C535BBF3FA41F89BA02942 /* test_space-age */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2437304DC96AF8B33779AD80 /* Generate CMakeFiles/test_space-age */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/users/rdtaylorjr/Developer/Exercism/cpp/space-age/build/Debug/space-age","/users/rdtaylorjr/Developer/Exercism/cpp/space-age/build/MinSizeRel/space-age","/users/rdtaylorjr/Developer/Exercism/cpp/space-age/build/RelWithDebInfo/space-age","/users/rdtaylorjr/Developer/Exercism/cpp/space-age/build/Release/space-age"			);
+			name = "Generate CMakeFiles/test_space-age";
+			outputPaths = (
+"/users/rdtaylorjr/Developer/Exercism/cpp/space-age/build/CMakeFiles/test_space-age"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/space-age/build
+  /users/rdtaylorjr/Developer/Exercism/cpp/space-age/build/Debug/space-age
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/space-age/build
+  /users/rdtaylorjr/Developer/Exercism/cpp/space-age/build/Release/space-age
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/space-age/build
+  /users/rdtaylorjr/Developer/Exercism/cpp/space-age/build/MinSizeRel/space-age
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/space-age/build
+  /users/rdtaylorjr/Developer/Exercism/cpp/space-age/build/RelWithDebInfo/space-age
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		448FC446437B43B23D08D4D6 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		44FF646D4C413F3DA46D46BE /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/users/rdtaylorjr/Developer/Exercism/cpp/space-age/build/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/space-age/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/space-age/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/space-age/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/space-age/build
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		CA24485C793581931DA12556 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/users/rdtaylorjr/Developer/Exercism/cpp/space-age/build/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/space-age/build
+  make -f /users/rdtaylorjr/Developer/Exercism/cpp/space-age/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/space-age/build
+  make -f /users/rdtaylorjr/Developer/Exercism/cpp/space-age/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/space-age/build
+  make -f /users/rdtaylorjr/Developer/Exercism/cpp/space-age/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /users/rdtaylorjr/Developer/Exercism/cpp/space-age/build
+  make -f /users/rdtaylorjr/Developer/Exercism/cpp/space-age/build/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A3C40C0743C43F3A8F656B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B75A1201F8E242B4A2278FEC /* /users/rdtaylorjr/Developer/Exercism/cpp/space-age/space_age.cpp */,
+				EAF0F88506A94A5A9314897B /* /users/rdtaylorjr/Developer/Exercism/cpp/space-age/space_age_test.cpp */,
+				FA98B501DD37418BAA55833B /* /users/rdtaylorjr/Developer/Exercism/cpp/space-age/test/tests-main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		610CB8F218724EFEB6CDC2D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F774F77BF024907A252311F /* space-age */;
+			targetProxy = 60917E22B172403A815F8527 /* PBXContainerItemProxy */;
+		};
+		6290252C3C664A8CA4F75C6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEF0F98F09064CA3A6AD7F0D /* ZERO_CHECK */;
+			targetProxy = 03755E257A7D49D48144AEBF /* PBXContainerItemProxy */;
+		};
+		733A610634FC4BAC86453684 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEF0F98F09064CA3A6AD7F0D /* ZERO_CHECK */;
+			targetProxy = 2B60E5D97E0F4534B4CEA0BB /* PBXContainerItemProxy */;
+		};
+		85B3D31FBA8A4DADBB02B34D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEF0F98F09064CA3A6AD7F0D /* ZERO_CHECK */;
+			targetProxy = 03419D058C7A41C0843E632C /* PBXContainerItemProxy */;
+		};
+		931306172470420F8EFA1B80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96C535BBF3FA41F89BA02942 /* test_space-age */;
+			targetProxy = 852FCD59EDB3469783F2CCB9 /* PBXContainerItemProxy */;
+		};
+		9DA432F3C7D249A8996BEC97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F774F77BF024907A252311F /* space-age */;
+			targetProxy = C3A55B0F2DE9444AAAA73CA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1204A054D65448F98C96D52A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_space-age";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/space-age/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		308E6C3E58824E8FBE244189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/space-age/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3A1EC552776D4515AE020C53 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "space-age";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/space-age/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		40E541FA54034B09B9D18150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_space-age";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/space-age/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		47B578D182AF42B0B11208A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/space-age/build/build";
+			};
+			name = Debug;
+		};
+		613E8359406C487A8838A6FD /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_space-age";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/space-age/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6E748C8909264C849DED150C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/space-age/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		739DB31AE1214F6BA96A8E7A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/space-age/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		8771A77F98874DD3A9981F9B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_space-age";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/space-age/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9D6CBC2DE61E4EB2A65C7C50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/space-age/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		A448C36ADFE149AF97C553A8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/space-age/build/build";
+			};
+			name = MinSizeRel;
+		};
+		B30D852CE65C40A08ECD469D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/space-age/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B59CB6C9ADC4422EA77AD52B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "space-age";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/space-age/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C2B07A7ADEFB424A95B0128D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/space-age/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C5417E2240D44AF381D84E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk;
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/space-age/build/build";
+			};
+			name = Release;
+		};
+		C90B1CC62A494043B6D17F88 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/space-age/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D72B21A9A7614DA6998CBC69 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/space-age/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E2855E083156484694DDB78C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/space-age/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F2DE6B9E329142C287941702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   -Wall -Wextra -Wpedantic -Werror '-std=c++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "space-age";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/space-age/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F2FA1318258B43DD9F81CE32 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ("$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ("$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "space-age";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/users/rdtaylorjr/Developer/Exercism/cpp/space-age/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		193CD27380F3489BA1EA1266 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E748C8909264C849DED150C /* Debug */,
+				9D6CBC2DE61E4EB2A65C7C50 /* Release */,
+				D72B21A9A7614DA6998CBC69 /* MinSizeRel */,
+				C90B1CC62A494043B6D17F88 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		518E54B057064BDF911739C3 /* Build configuration list for PBXProject "space-age" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47B578D182AF42B0B11208A2 /* Debug */,
+				C5417E2240D44AF381D84E85 /* Release */,
+				A448C36ADFE149AF97C553A8 /* MinSizeRel */,
+				739DB31AE1214F6BA96A8E7A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		552CC21515AB4EB1BBAF7908 /* Build configuration list for PBXNativeTarget "space-age" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2DE6B9E329142C287941702 /* Debug */,
+				B59CB6C9ADC4422EA77AD52B /* Release */,
+				F2FA1318258B43DD9F81CE32 /* MinSizeRel */,
+				3A1EC552776D4515AE020C53 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7C931C3A49CE47F7B7737481 /* Build configuration list for PBXAggregateTarget "test_space-age" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1204A054D65448F98C96D52A /* Debug */,
+				40E541FA54034B09B9D18150 /* Release */,
+				8771A77F98874DD3A9981F9B /* MinSizeRel */,
+				613E8359406C487A8838A6FD /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		929EE6F872454459AB5EB073 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				308E6C3E58824E8FBE244189 /* Debug */,
+				C2B07A7ADEFB424A95B0128D /* Release */,
+				E2855E083156484694DDB78C /* MinSizeRel */,
+				B30D852CE65C40A08ECD469D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB5B38D670234E3CB4325BA9 /* Project object */;
+}

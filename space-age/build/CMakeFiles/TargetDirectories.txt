@@ -1,0 +1,4 @@
+/users/rdtaylorjr/Developer/Exercism/cpp/space-age/build/CMakeFiles/test_space-age.dir
+/users/rdtaylorjr/Developer/Exercism/cpp/space-age/build/CMakeFiles/space-age.dir
+/users/rdtaylorjr/Developer/Exercism/cpp/space-age/build/CMakeFiles/ALL_BUILD.dir
+/users/rdtaylorjr/Developer/Exercism/cpp/space-age/build/CMakeFiles/ZERO_CHECK.dir
