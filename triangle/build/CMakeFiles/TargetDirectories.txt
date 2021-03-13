@@ -1,0 +1,4 @@
+/Users/rdtaylorjr/Developer/Exercism/cpp/triangle/build/CMakeFiles/test_triangle.dir
+/Users/rdtaylorjr/Developer/Exercism/cpp/triangle/build/CMakeFiles/triangle.dir
+/Users/rdtaylorjr/Developer/Exercism/cpp/triangle/build/CMakeFiles/ALL_BUILD.dir
+/Users/rdtaylorjr/Developer/Exercism/cpp/triangle/build/CMakeFiles/ZERO_CHECK.dir
